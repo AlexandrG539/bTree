@@ -1,0 +1,11 @@
+int findKey (int value, struct node *nd);
+int removeFromNode (int value, struct node *nd, size_t t);
+int removeFromLeaf (int i, struct node *nd, size_t t);
+int removeFromNonLeaf(int i, struct node *nd, size_t t);
+int getPred(int i, struct node *nd);
+int getSucc(int i, struct node *nd);
+int fill(int i, struct node *nd, size_t t);
+int borrowFromPrev(int i, struct node *nd);
+int borrowFromNext(int i, struct node *nd);
+int merge(int i, struct node *nd, size_t t);
+int removeFromTree(int value, struct bTree *tree);

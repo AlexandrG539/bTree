@@ -1,0 +1,1 @@
+int search (struct node *nd, int value);
